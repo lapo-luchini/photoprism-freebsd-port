@@ -17,6 +17,7 @@ bin/photoprism
 /var/db/photoprism/assets/examples/beach_sand.jpg
 /var/db/photoprism/assets/examples/beach_sand.json
 /var/db/photoprism/assets/examples/beach_wood.jpg
+/var/db/photoprism/assets/examples/bear.m2ts
 /var/db/photoprism/assets/examples/bitcoin_gold.jpg
 /var/db/photoprism/assets/examples/blue-go-video.json
 /var/db/photoprism/assets/examples/blue-go-video.mp4
@@ -26,6 +27,8 @@ bin/photoprism
 /var/db/photoprism/assets/examples/canon_eos_6d.json
 /var/db/photoprism/assets/examples/canon_eos_6d.xmp
 /var/db/photoprism/assets/examples/cash_register_gold.jpg
+/var/db/photoprism/assets/examples/cat_224.jpeg
+/var/db/photoprism/assets/examples/cat_720.jpeg
 /var/db/photoprism/assets/examples/cat_black.jpg
 /var/db/photoprism/assets/examples/cat_brown.jpg
 /var/db/photoprism/assets/examples/cat_yellow_grey.jpg
@@ -50,12 +53,14 @@ bin/photoprism
 /var/db/photoprism/assets/examples/example.mp4
 /var/db/photoprism/assets/examples/example.png
 /var/db/photoprism/assets/examples/example.tif
+/var/db/photoprism/assets/examples/example.zip
 /var/db/photoprism/assets/examples/fern_green.jpg
 /var/db/photoprism/assets/examples/ferriswheel_colorful.jpg
 /var/db/photoprism/assets/examples/fish_anthias_magenta.jpg
 /var/db/photoprism/assets/examples/fox.profile0.8bpc.yuv420.avif
 /var/db/photoprism/assets/examples/giraffe_green_brown.jpg
 /var/db/photoprism/assets/examples/gopher-video.mp4
+/var/db/photoprism/assets/examples/green.jpg
 /var/db/photoprism/assets/examples/instrument_gold.jpg
 /var/db/photoprism/assets/examples/iphone_15_pro.heic
 /var/db/photoprism/assets/examples/iphone_15_pro.json
@@ -66,6 +71,7 @@ bin/photoprism
 /var/db/photoprism/assets/examples/jellyfish_blue.jpg
 /var/db/photoprism/assets/examples/leaves_gold.jpg
 /var/db/photoprism/assets/examples/limes.jpg
+/var/db/photoprism/assets/examples/m2ts.mp4
 /var/db/photoprism/assets/examples/ocean_cyan.jpg
 /var/db/photoprism/assets/examples/orange_square.jpg
 /var/db/photoprism/assets/examples/palms_beach.jpg
@@ -94,8 +100,6 @@ bin/photoprism
 /var/db/photoprism/assets/examples/tweethog.png
 /var/db/photoprism/assets/examples/yellow_rose-small.bmp
 /var/db/photoprism/assets/examples/zebra_green_brown.jpg
-/var/db/photoprism/assets/facenet/saved_model.pb
-/var/db/photoprism/assets/facenet/version.txt
 /var/db/photoprism/assets/locales/README.md
 /var/db/photoprism/assets/locales/af/default.po
 /var/db/photoprism/assets/locales/ar/default.po
@@ -120,7 +124,7 @@ bin/photoprism
 /var/db/photoprism/assets/locales/hu/default.po
 /var/db/photoprism/assets/locales/id/default.po
 /var/db/photoprism/assets/locales/it/default.po
-/var/db/photoprism/assets/locales/ja_JP/default.po
+/var/db/photoprism/assets/locales/ja/default.po
 /var/db/photoprism/assets/locales/ko/default.po
 /var/db/photoprism/assets/locales/ku/default.po
 /var/db/photoprism/assets/locales/lt/default.po
@@ -142,16 +146,65 @@ bin/photoprism
 /var/db/photoprism/assets/locales/vi/default.po
 /var/db/photoprism/assets/locales/zh/default.po
 /var/db/photoprism/assets/locales/zh_TW/default.po
-/var/db/photoprism/assets/nasnet/labels.txt
-/var/db/photoprism/assets/nasnet/saved_model.pb
-/var/db/photoprism/assets/nasnet/variables/variables.data-00000-of-00001
-/var/db/photoprism/assets/nasnet/variables/variables.index
-/var/db/photoprism/assets/nasnet/version.txt
-/var/db/photoprism/assets/nsfw/labels.txt
-/var/db/photoprism/assets/nsfw/saved_model.pb
-/var/db/photoprism/assets/nsfw/variables/variables.data-00000-of-00001
-/var/db/photoprism/assets/nsfw/variables/variables.index
-/var/db/photoprism/assets/nsfw/version.txt
+/var/db/photoprism/assets/models/facenet/saved_model.pb
+/var/db/photoprism/assets/models/facenet/version.txt
+/var/db/photoprism/assets/models/nasnet/labels.txt
+/var/db/photoprism/assets/models/nasnet/labels21k.txt
+/var/db/photoprism/assets/models/nasnet/saved_model.pb
+/var/db/photoprism/assets/models/nasnet/variables/variables.data-00000-of-00001
+/var/db/photoprism/assets/models/nasnet/variables/variables.index
+/var/db/photoprism/assets/models/nasnet/version.txt
+/var/db/photoprism/assets/models/nsfw/labels.txt
+/var/db/photoprism/assets/models/nsfw/saved_model.pb
+/var/db/photoprism/assets/models/nsfw/variables/variables.data-00000-of-00001
+/var/db/photoprism/assets/models/nsfw/variables/variables.index
+/var/db/photoprism/assets/models/nsfw/version.txt
+/var/db/photoprism/assets/profiles/icc/NOTICE
+/var/db/photoprism/assets/profiles/icc/a98.icc
+/var/db/photoprism/assets/profiles/icc/adobecompat-v2.icc
+/var/db/photoprism/assets/profiles/icc/adobecompat-v4.icc
+/var/db/photoprism/assets/profiles/icc/applecompat-v2.icc
+/var/db/photoprism/assets/profiles/icc/applecompat-v4.icc
+/var/db/photoprism/assets/profiles/icc/cgats001compat-v2-micro.icc
+/var/db/photoprism/assets/profiles/icc/colormatchcompat-v2.icc
+/var/db/photoprism/assets/profiles/icc/colormatchcompat-v4.icc
+/var/db/photoprism/assets/profiles/icc/dci-p3-v4.icc
+/var/db/photoprism/assets/profiles/icc/displayp3-v2-magic.icc
+/var/db/photoprism/assets/profiles/icc/displayp3-v2-micro.icc
+/var/db/photoprism/assets/profiles/icc/displayp3-v4.icc
+/var/db/photoprism/assets/profiles/icc/displayp3compat-v2-magic.icc
+/var/db/photoprism/assets/profiles/icc/displayp3compat-v2-micro.icc
+/var/db/photoprism/assets/profiles/icc/displayp3compat-v4.icc
+/var/db/photoprism/assets/profiles/icc/prophoto-v2-magic.icc
+/var/db/photoprism/assets/profiles/icc/prophoto-v2-micro.icc
+/var/db/photoprism/assets/profiles/icc/prophoto-v4.icc
+/var/db/photoprism/assets/profiles/icc/rec2020-g24-v4.icc
+/var/db/photoprism/assets/profiles/icc/rec2020-v2-magic.icc
+/var/db/photoprism/assets/profiles/icc/rec2020-v2-micro.icc
+/var/db/photoprism/assets/profiles/icc/rec2020-v4.icc
+/var/db/photoprism/assets/profiles/icc/rec2020compat-v2-magic.icc
+/var/db/photoprism/assets/profiles/icc/rec2020compat-v2-micro.icc
+/var/db/photoprism/assets/profiles/icc/rec2020compat-v4.icc
+/var/db/photoprism/assets/profiles/icc/rec601ntsc-v2-magic.icc
+/var/db/photoprism/assets/profiles/icc/rec601ntsc-v2-micro.icc
+/var/db/photoprism/assets/profiles/icc/rec601ntsc-v4.icc
+/var/db/photoprism/assets/profiles/icc/rec601pal-v2-magic.icc
+/var/db/photoprism/assets/profiles/icc/rec601pal-v2-micro.icc
+/var/db/photoprism/assets/profiles/icc/rec601pal-v4.icc
+/var/db/photoprism/assets/profiles/icc/rec709-v2-magic.icc
+/var/db/photoprism/assets/profiles/icc/rec709-v2-micro.icc
+/var/db/photoprism/assets/profiles/icc/rec709-v4.icc
+/var/db/photoprism/assets/profiles/icc/scrgb-v2.icc
+/var/db/photoprism/assets/profiles/icc/sgrey-v2-magic.icc
+/var/db/photoprism/assets/profiles/icc/sgrey-v2-micro.icc
+/var/db/photoprism/assets/profiles/icc/sgrey-v2-nano.icc
+/var/db/photoprism/assets/profiles/icc/sgrey-v4.icc
+/var/db/photoprism/assets/profiles/icc/srgb-v2-magic.icc
+/var/db/photoprism/assets/profiles/icc/srgb-v2-micro.icc
+/var/db/photoprism/assets/profiles/icc/srgb-v2-nano.icc
+/var/db/photoprism/assets/profiles/icc/srgb-v4.icc
+/var/db/photoprism/assets/profiles/icc/widegamutcompat-v2.icc
+/var/db/photoprism/assets/profiles/icc/widegamutcompat-v4.icc
 /var/db/photoprism/assets/profiles/raw.pp3
 /var/db/photoprism/assets/static/brands/42-group.svg
 /var/db/photoprism/assets/static/brands/500px.svg
@@ -675,17 +728,65 @@ bin/photoprism
 /var/db/photoprism/assets/static/brands/zhihu.svg
 /var/db/photoprism/assets/static/build/1fcc36272ea3e53d0031.ttf
 /var/db/photoprism/assets/static/build/2146c3c82b553977abc7.eot
-/var/db/photoprism/assets/static/build/app.0bb18332116341bb4759.js
-/var/db/photoprism/assets/static/build/app.0bb18332116341bb4759.js.LICENSE.txt
-/var/db/photoprism/assets/static/build/app.9a9c34530140059112ca.css
+/var/db/photoprism/assets/static/build/app.501c26eb1d29231a177c.js
+/var/db/photoprism/assets/static/build/app.501c26eb1d29231a177c.js.LICENSE.txt
+/var/db/photoprism/assets/static/build/app.5652a66f230d5a89b079.css
 /var/db/photoprism/assets/static/build/assets.json
+/var/db/photoprism/assets/static/build/chunk/443.cbaa786b1869480d48aa.js
+/var/db/photoprism/assets/static/build/chunk/443.cbaa786b1869480d48aa.js.LICENSE.txt
+/var/db/photoprism/assets/static/build/chunk/932.1f7bf6c3e759239d0047.js
+/var/db/photoprism/assets/static/build/chunk/af-json.9a0872c2a0c4447eb844.js
+/var/db/photoprism/assets/static/build/chunk/ar-json.46f54aee57474bc67c6c.js
+/var/db/photoprism/assets/static/build/chunk/be-json.82f9d35448ed80bf3573.js
+/var/db/photoprism/assets/static/build/chunk/bg-json.b94054d9e218c26a0e26.js
+/var/db/photoprism/assets/static/build/chunk/ca-json.ce6c86d6921a1b0261f2.js
+/var/db/photoprism/assets/static/build/chunk/cs-json.0ec6974dcc6345e81973.js
+/var/db/photoprism/assets/static/build/chunk/da-json.04966162832b2ce8059e.js
+/var/db/photoprism/assets/static/build/chunk/de-json.e94ebcbab5b418ab3d0b.js
+/var/db/photoprism/assets/static/build/chunk/el-json.53c6c0388210ba732e81.js
+/var/db/photoprism/assets/static/build/chunk/en-json.c4da6d942911456dd1b3.js
+/var/db/photoprism/assets/static/build/chunk/es-json.9f0b678cccea1fd87f60.js
+/var/db/photoprism/assets/static/build/chunk/et-json.26784ebcb00edcb1a901.js
+/var/db/photoprism/assets/static/build/chunk/eu-json.1887321e77e1bc321fb5.js
+/var/db/photoprism/assets/static/build/chunk/fa-json.093c1810c4cf8b0176b4.js
+/var/db/photoprism/assets/static/build/chunk/fi-json.44f0edf3e15907945159.js
+/var/db/photoprism/assets/static/build/chunk/fr-json.a342dcf3b9434620c95a.js
+/var/db/photoprism/assets/static/build/chunk/ga-json.e26f5991b8d58a095e86.js
+/var/db/photoprism/assets/static/build/chunk/he-json.63157ac36555bd7cada5.js
+/var/db/photoprism/assets/static/build/chunk/hi-json.ad867aa204294e3a4ac2.js
+/var/db/photoprism/assets/static/build/chunk/hr-json.3ea78ac2314872f9baa6.js
+/var/db/photoprism/assets/static/build/chunk/hu-json.91cd6803ab46231233de.js
+/var/db/photoprism/assets/static/build/chunk/id-json.9f003385d57ce63e04be.js
+/var/db/photoprism/assets/static/build/chunk/it-json.c96a2715c6dc45d7bdb9.js
+/var/db/photoprism/assets/static/build/chunk/ja-json.949e5ff641bf851c27de.js
+/var/db/photoprism/assets/static/build/chunk/ko-json.db622e3eb2abc8111321.js
+/var/db/photoprism/assets/static/build/chunk/ku-json.378a2a946b34a2c58ace.js
+/var/db/photoprism/assets/static/build/chunk/lt-json.d95546a968d7b7878d4d.js
+/var/db/photoprism/assets/static/build/chunk/ms-json.e7837f849104d7942cab.js
+/var/db/photoprism/assets/static/build/chunk/nb-json.21e8dc77a0bb9d502893.js
+/var/db/photoprism/assets/static/build/chunk/nl-json.d998e89248f03e7050cf.js
+/var/db/photoprism/assets/static/build/chunk/pl-json.4d880627182ad198760c.js
+/var/db/photoprism/assets/static/build/chunk/pt-json.e8e82fde5eade200f6d6.js
+/var/db/photoprism/assets/static/build/chunk/pt_BR-json.2d1706239f39dd454a4d.js
+/var/db/photoprism/assets/static/build/chunk/ro-json.a44600536ea9386812e5.js
+/var/db/photoprism/assets/static/build/chunk/ru-json.dbdd287dfdee1e56e384.js
+/var/db/photoprism/assets/static/build/chunk/sk-json.97de5df706c5d3084435.js
+/var/db/photoprism/assets/static/build/chunk/sl-json.765bda282aea52c545d0.js
+/var/db/photoprism/assets/static/build/chunk/sv-json.fc130ee1df881e12d4e9.js
+/var/db/photoprism/assets/static/build/chunk/th-json.00db3c4992f3d3d86a18.js
+/var/db/photoprism/assets/static/build/chunk/tr-json.c0d08b1ba72b0388e5fe.js
+/var/db/photoprism/assets/static/build/chunk/uk-json.7df1ed4aca4244ba4375.js
+/var/db/photoprism/assets/static/build/chunk/vi-json.b9518fdae19adbf4bb06.js
+/var/db/photoprism/assets/static/build/chunk/zh-json.03304be4931277b60865.js
+/var/db/photoprism/assets/static/build/chunk/zh_TW-json.114a3824b6aecf9ab50a.js
 /var/db/photoprism/assets/static/build/e55a20c80650829ec5fd.woff
 /var/db/photoprism/assets/static/build/ec024da790d2972da002.woff2
-/var/db/photoprism/assets/static/build/share.dadd334f5b719b1da0da.js
-/var/db/photoprism/assets/static/build/share.dadd334f5b719b1da0da.js.LICENSE.txt
+/var/db/photoprism/assets/static/build/share.a59e3f0e821ad7278e4b.js
+/var/db/photoprism/assets/static/build/share.a59e3f0e821ad7278e4b.js.LICENSE.txt
 /var/db/photoprism/assets/static/build/splash.31d6cfe0d16ae931b73c.js
-/var/db/photoprism/assets/static/build/splash.3374b23705fb60749d33.css
+/var/db/photoprism/assets/static/build/splash.36c27d4b4265ac814869.css
 /var/db/photoprism/assets/static/build/sw.js
+/var/db/photoprism/assets/static/build/workbox-bdbbf67e.js
 /var/db/photoprism/assets/static/font/Open Sans Bold/0-255.pbf
 /var/db/photoprism/assets/static/font/Open Sans Bold/1024-1279.pbf
 /var/db/photoprism/assets/static/font/Open Sans Bold/10240-10495.pbf
@@ -1948,10 +2049,12 @@ bin/photoprism
 /var/db/photoprism/assets/static/img/oidc.svg
 /var/db/photoprism/assets/static/img/preview.jpg
 /var/db/photoprism/assets/static/img/wallpaper/default.jpg
+/var/db/photoprism/assets/static/js/browser-check.js
 /var/db/photoprism/assets/static/plugins/maplibre-gl-rtl-text/v0.2.3/maplibre-gl-rtl-text.js
 /var/db/photoprism/assets/static/video/404.mp4
 /var/db/photoprism/assets/templates/404.gohtml
 /var/db/photoprism/assets/templates/app.gohtml
+/var/db/photoprism/assets/templates/app.js.gohtml
 /var/db/photoprism/assets/templates/auth.gohtml
 /var/db/photoprism/assets/templates/favicons.gohtml
 /var/db/photoprism/assets/templates/index.gohtml
@@ -1965,7 +2068,6 @@ bin/photoprism
 /var/db/photoprism/assets/templates/styles.gohtml
 @dir /var/db/photoprism/assets/examples/.photoprism
 @dir /var/db/photoprism/assets/examples
-@dir /var/db/photoprism/assets/facenet
 @dir /var/db/photoprism/assets/locales/af
 @dir /var/db/photoprism/assets/locales/ar
 @dir /var/db/photoprism/assets/locales/be
@@ -1989,7 +2091,7 @@ bin/photoprism
 @dir /var/db/photoprism/assets/locales/hu
 @dir /var/db/photoprism/assets/locales/id
 @dir /var/db/photoprism/assets/locales/it
-@dir /var/db/photoprism/assets/locales/ja_JP
+@dir /var/db/photoprism/assets/locales/ja
 @dir /var/db/photoprism/assets/locales/ko
 @dir /var/db/photoprism/assets/locales/ku
 @dir /var/db/photoprism/assets/locales/lt
@@ -2011,12 +2113,16 @@ bin/photoprism
 @dir /var/db/photoprism/assets/locales/zh
 @dir /var/db/photoprism/assets/locales/zh_TW
 @dir /var/db/photoprism/assets/locales
-@dir /var/db/photoprism/assets/nasnet/variables
-@dir /var/db/photoprism/assets/nasnet
-@dir /var/db/photoprism/assets/nsfw/variables
-@dir /var/db/photoprism/assets/nsfw
+@dir /var/db/photoprism/assets/models/facenet
+@dir /var/db/photoprism/assets/models/nasnet/variables
+@dir /var/db/photoprism/assets/models/nasnet
+@dir /var/db/photoprism/assets/models/nsfw/variables
+@dir /var/db/photoprism/assets/models/nsfw
+@dir /var/db/photoprism/assets/models
+@dir /var/db/photoprism/assets/profiles/icc
 @dir /var/db/photoprism/assets/profiles
 @dir /var/db/photoprism/assets/static/brands
+@dir /var/db/photoprism/assets/static/build/chunk
 @dir /var/db/photoprism/assets/static/build
 @dir /var/db/photoprism/assets/static/font/Open Sans Bold
 @dir /var/db/photoprism/assets/static/font/Open Sans Italic
@@ -2035,6 +2141,7 @@ bin/photoprism
 @dir /var/db/photoprism/assets/static/img/avatar
 @dir /var/db/photoprism/assets/static/img/wallpaper
 @dir /var/db/photoprism/assets/static/img
+@dir /var/db/photoprism/assets/static/js
 @dir /var/db/photoprism/assets/static/plugins/maplibre-gl-rtl-text/v0.2.3
 @dir /var/db/photoprism/assets/static/plugins/maplibre-gl-rtl-text
 @dir /var/db/photoprism/assets/static/plugins

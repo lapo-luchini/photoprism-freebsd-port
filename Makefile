@@ -1,5 +1,5 @@
 PORTNAME=	photoprism
-DISTVERSION=	g20250321
+DISTVERSION=	g251130
 CATEGORIES=	www
 
 MAINTAINER=	huoju@devep.net
@@ -13,25 +13,29 @@ RUN_DEPENDS=	ffmpeg:multimedia/ffmpeg \
 	libheif>=1.14.2:graphics/libheif \
 	vips>=8.10:graphics/vips
 
-LIB_DEPENDS=	libtensorflow.so.1:science/libtensorflow1
+LIB_DEPENDS=	libtensorflow.so.2:science/py-tensorflow \
+		libgio-2.0.so.0:devel/glib20 \
+		libgobject-2.0.so.0:devel/glib20 \
+		libglib-2.0.so.0:devel/glib20
 
 EXTRACT_DEPENDS=	\
 	${RUN_DEPENDS} \
 	bash:shells/bash \
 	git:devel/git \
 	gmake:devel/gmake \
-	npm:www/npm-node18 \
-	wget:ftp/wget:1.21+ \
+	npm:www/npm-node22 \
+	wget:ftp/wget \
 	pkg-config:devel/pkgconf
 
 BUILD_DEPENDS=	${EXTRACT_DEPENDS}
 
-USES=		gmake go:1.22,modules python:3.6+,build
+USES=		gmake go:1.24,modules python:3.6+,build gettext-runtime
+USE_GNOME+=glib20
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	photoprism
 GH_PROJECT=	photoprism
-GH_TAGNAME=	250321-57590c48b
+GH_TAGNAME=	251130-b3068414c
 
 USE_RC_SUBR=	photoprism
 PHOTOPRISM_DATA_DIR=	/var/db/photoprism
@@ -54,12 +58,22 @@ post-extract:
 		./scripts/download-nsfw.sh ; \
 	)
 
+patch-depends:
+	${MKDIR} /portdistfiles/go
+	chown -R nobody:nobody /portdistfiles/go
+
+post-patch:
+	@${REINPLACE_CMD} -e 's|graft v0.10.0|graft v0.5.1|g' ${WRKSRC}/go.mod
+	@${REINPLACE_CMD} -e 's|graft v0.10.0 h1:HSpBUvm7O+jwsRIuDQlw80xW4xMXRFkOiVLtWaZCU2s=|graft v0.5.1 h1:wK1to5Q1ULsxKMOw9LmYbUlxFwKXiwotMjaaurPxz1w=|g' ${WRKSRC}/go.sum
+	@${REINPLACE_CMD} -e 's|graft v0.10.0/go.mod h1:k6NJX3fCM/xzh5NtHky9USdgHTcz2vAvHp4c23I6UK4=|graft v0.5.1/go.mod h1:+qbkZFJnxKOKUXOjIWQW+W5Bw0KU3JZYhMvlF4Fvtl8=|g' ${WRKSRC}/go.sum
+
 pre-build:
 	${MKDIR} ${WRKSRC}/build
 	${MKDIR} ${WRKSRC}/assets/static/build
 
 	@( cd ${WRKSRC}/frontend; \
-		npm install --yes -D webpack-cli@^4.10.0 ; \
+		export HOME=/tmp ; \
+		npm install --yes -D webpack-cli@^6.0.1 ; \
 	)
 
 do-build:
