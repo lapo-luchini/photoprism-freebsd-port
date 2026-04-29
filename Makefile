@@ -1,5 +1,5 @@
 PORTNAME=	photoprism
-DISTVERSION=	g251130
+DISTVERSION=	g260305
 CATEGORIES=	www
 
 MAINTAINER=	huoju@devep.net
@@ -35,7 +35,7 @@ USE_GNOME+=glib20
 USE_GITHUB=	yes
 GH_ACCOUNT=	photoprism
 GH_PROJECT=	photoprism
-GH_TAGNAME=	251130-b3068414c
+GH_TAGNAME=	260305-fad9d5395
 
 USE_RC_SUBR=	photoprism
 PHOTOPRISM_DATA_DIR=	/var/db/photoprism

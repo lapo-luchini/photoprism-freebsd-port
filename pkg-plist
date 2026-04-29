@@ -128,6 +128,7 @@ bin/photoprism
 /var/db/photoprism/assets/locales/ko/default.po
 /var/db/photoprism/assets/locales/ku/default.po
 /var/db/photoprism/assets/locales/lt/default.po
+/var/db/photoprism/assets/locales/lv/default.po
 /var/db/photoprism/assets/locales/messages.pot
 /var/db/photoprism/assets/locales/ms/default.po
 /var/db/photoprism/assets/locales/nb/default.po
@@ -146,6 +147,7 @@ bin/photoprism
 /var/db/photoprism/assets/locales/vi/default.po
 /var/db/photoprism/assets/locales/zh/default.po
 /var/db/photoprism/assets/locales/zh_TW/default.po
+/var/db/photoprism/assets/models/.gitignore
 /var/db/photoprism/assets/models/facenet/saved_model.pb
 /var/db/photoprism/assets/models/facenet/version.txt
 /var/db/photoprism/assets/models/nasnet/labels.txt
@@ -728,65 +730,67 @@ bin/photoprism
 /var/db/photoprism/assets/static/brands/zhihu.svg
 /var/db/photoprism/assets/static/build/1fcc36272ea3e53d0031.ttf
 /var/db/photoprism/assets/static/build/2146c3c82b553977abc7.eot
-/var/db/photoprism/assets/static/build/app.501c26eb1d29231a177c.js
-/var/db/photoprism/assets/static/build/app.501c26eb1d29231a177c.js.LICENSE.txt
-/var/db/photoprism/assets/static/build/app.5652a66f230d5a89b079.css
+/var/db/photoprism/assets/static/build/app.89715bad3baa90868a78.js
+/var/db/photoprism/assets/static/build/app.89715bad3baa90868a78.js.LICENSE.txt
+/var/db/photoprism/assets/static/build/app.9382dcbfd370804701ab.css
 /var/db/photoprism/assets/static/build/assets.json
-/var/db/photoprism/assets/static/build/chunk/443.cbaa786b1869480d48aa.js
-/var/db/photoprism/assets/static/build/chunk/443.cbaa786b1869480d48aa.js.LICENSE.txt
-/var/db/photoprism/assets/static/build/chunk/932.1f7bf6c3e759239d0047.js
-/var/db/photoprism/assets/static/build/chunk/af-json.9a0872c2a0c4447eb844.js
-/var/db/photoprism/assets/static/build/chunk/ar-json.46f54aee57474bc67c6c.js
-/var/db/photoprism/assets/static/build/chunk/be-json.82f9d35448ed80bf3573.js
-/var/db/photoprism/assets/static/build/chunk/bg-json.b94054d9e218c26a0e26.js
-/var/db/photoprism/assets/static/build/chunk/ca-json.ce6c86d6921a1b0261f2.js
-/var/db/photoprism/assets/static/build/chunk/cs-json.0ec6974dcc6345e81973.js
-/var/db/photoprism/assets/static/build/chunk/da-json.04966162832b2ce8059e.js
-/var/db/photoprism/assets/static/build/chunk/de-json.e94ebcbab5b418ab3d0b.js
-/var/db/photoprism/assets/static/build/chunk/el-json.53c6c0388210ba732e81.js
-/var/db/photoprism/assets/static/build/chunk/en-json.c4da6d942911456dd1b3.js
-/var/db/photoprism/assets/static/build/chunk/es-json.9f0b678cccea1fd87f60.js
-/var/db/photoprism/assets/static/build/chunk/et-json.26784ebcb00edcb1a901.js
-/var/db/photoprism/assets/static/build/chunk/eu-json.1887321e77e1bc321fb5.js
-/var/db/photoprism/assets/static/build/chunk/fa-json.093c1810c4cf8b0176b4.js
-/var/db/photoprism/assets/static/build/chunk/fi-json.44f0edf3e15907945159.js
-/var/db/photoprism/assets/static/build/chunk/fr-json.a342dcf3b9434620c95a.js
-/var/db/photoprism/assets/static/build/chunk/ga-json.e26f5991b8d58a095e86.js
-/var/db/photoprism/assets/static/build/chunk/he-json.63157ac36555bd7cada5.js
-/var/db/photoprism/assets/static/build/chunk/hi-json.ad867aa204294e3a4ac2.js
-/var/db/photoprism/assets/static/build/chunk/hr-json.3ea78ac2314872f9baa6.js
-/var/db/photoprism/assets/static/build/chunk/hu-json.91cd6803ab46231233de.js
-/var/db/photoprism/assets/static/build/chunk/id-json.9f003385d57ce63e04be.js
-/var/db/photoprism/assets/static/build/chunk/it-json.c96a2715c6dc45d7bdb9.js
-/var/db/photoprism/assets/static/build/chunk/ja-json.949e5ff641bf851c27de.js
-/var/db/photoprism/assets/static/build/chunk/ko-json.db622e3eb2abc8111321.js
-/var/db/photoprism/assets/static/build/chunk/ku-json.378a2a946b34a2c58ace.js
-/var/db/photoprism/assets/static/build/chunk/lt-json.d95546a968d7b7878d4d.js
-/var/db/photoprism/assets/static/build/chunk/ms-json.e7837f849104d7942cab.js
-/var/db/photoprism/assets/static/build/chunk/nb-json.21e8dc77a0bb9d502893.js
-/var/db/photoprism/assets/static/build/chunk/nl-json.d998e89248f03e7050cf.js
-/var/db/photoprism/assets/static/build/chunk/pl-json.4d880627182ad198760c.js
-/var/db/photoprism/assets/static/build/chunk/pt-json.e8e82fde5eade200f6d6.js
-/var/db/photoprism/assets/static/build/chunk/pt_BR-json.2d1706239f39dd454a4d.js
-/var/db/photoprism/assets/static/build/chunk/ro-json.a44600536ea9386812e5.js
-/var/db/photoprism/assets/static/build/chunk/ru-json.dbdd287dfdee1e56e384.js
-/var/db/photoprism/assets/static/build/chunk/sk-json.97de5df706c5d3084435.js
-/var/db/photoprism/assets/static/build/chunk/sl-json.765bda282aea52c545d0.js
-/var/db/photoprism/assets/static/build/chunk/sv-json.fc130ee1df881e12d4e9.js
-/var/db/photoprism/assets/static/build/chunk/th-json.00db3c4992f3d3d86a18.js
-/var/db/photoprism/assets/static/build/chunk/tr-json.c0d08b1ba72b0388e5fe.js
-/var/db/photoprism/assets/static/build/chunk/uk-json.7df1ed4aca4244ba4375.js
-/var/db/photoprism/assets/static/build/chunk/vi-json.b9518fdae19adbf4bb06.js
-/var/db/photoprism/assets/static/build/chunk/zh-json.03304be4931277b60865.js
-/var/db/photoprism/assets/static/build/chunk/zh_TW-json.114a3824b6aecf9ab50a.js
+/var/db/photoprism/assets/static/build/chunk/505.ebed43c71a4f288c3b68.js
+/var/db/photoprism/assets/static/build/chunk/505.ebed43c71a4f288c3b68.js.LICENSE.txt
+/var/db/photoprism/assets/static/build/chunk/776.5fdf8e5fac510ea0a573.js
+/var/db/photoprism/assets/static/build/chunk/af-json.85fe889c621e498d93ea.js
+/var/db/photoprism/assets/static/build/chunk/ar-json.9ba898f7913f033db391.js
+/var/db/photoprism/assets/static/build/chunk/be-json.c3b077c6a0898eeeec97.js
+/var/db/photoprism/assets/static/build/chunk/bg-json.aa5c4698c678bdfb79d7.js
+/var/db/photoprism/assets/static/build/chunk/ca-json.1531093b1bb8ca11c0e7.js
+/var/db/photoprism/assets/static/build/chunk/cs-json.73ffbdc06397b01e35a0.js
+/var/db/photoprism/assets/static/build/chunk/da-json.a292f035bd99f864e72a.js
+/var/db/photoprism/assets/static/build/chunk/de-json.456e36effb72338a6312.js
+/var/db/photoprism/assets/static/build/chunk/el-json.d8fe7a6d0fd262acb062.js
+/var/db/photoprism/assets/static/build/chunk/en-json.962c6e095302a8bda836.js
+/var/db/photoprism/assets/static/build/chunk/es-json.e2c47df4437c53bcb624.js
+/var/db/photoprism/assets/static/build/chunk/et-json.1cbf84155f10f97513a5.js
+/var/db/photoprism/assets/static/build/chunk/eu-json.148e67e62f360e0de124.js
+/var/db/photoprism/assets/static/build/chunk/fa-json.84f5038557b774e5a2a4.js
+/var/db/photoprism/assets/static/build/chunk/fi-json.445caef56f93411cfc31.js
+/var/db/photoprism/assets/static/build/chunk/fr-json.97c400f9e839b99112fd.js
+/var/db/photoprism/assets/static/build/chunk/ga-json.8c4b1db20abe64e4da51.js
+/var/db/photoprism/assets/static/build/chunk/he-json.606b846eb8e26ad71b98.js
+/var/db/photoprism/assets/static/build/chunk/hi-json.668ea2063effa415f560.js
+/var/db/photoprism/assets/static/build/chunk/hr-json.f31be3a5ba1c9fcc9c0c.js
+/var/db/photoprism/assets/static/build/chunk/hu-json.84d0ae1cf978858285fe.js
+/var/db/photoprism/assets/static/build/chunk/id-json.135e81c42a8c2d032efc.js
+/var/db/photoprism/assets/static/build/chunk/it-json.7f2789142e4e34de544d.js
+/var/db/photoprism/assets/static/build/chunk/ja-json.d44e8c6922068afe96b9.js
+/var/db/photoprism/assets/static/build/chunk/ko-json.e3d53e2a07b838ca0513.js
+/var/db/photoprism/assets/static/build/chunk/ku-json.b7bf383be1ee2a0c0527.js
+/var/db/photoprism/assets/static/build/chunk/lt-json.f34733861b358f45c3f3.js
+/var/db/photoprism/assets/static/build/chunk/lv-json.76303ac9ff1395703e5d.js
+/var/db/photoprism/assets/static/build/chunk/ms-json.cdb5b6f09e614590dcda.js
+/var/db/photoprism/assets/static/build/chunk/nb-json.84c30b4f514d46b2ede3.js
+/var/db/photoprism/assets/static/build/chunk/nl-json.9eff0a884447f78783b8.js
+/var/db/photoprism/assets/static/build/chunk/pl-json.53587829a7ea3fbc4009.js
+/var/db/photoprism/assets/static/build/chunk/pt-json.6dfd46925fdd4d08f671.js
+/var/db/photoprism/assets/static/build/chunk/pt_BR-json.277268a93bfb5f87daf7.js
+/var/db/photoprism/assets/static/build/chunk/ro-json.0afeb2fb3fd39cd7eb45.js
+/var/db/photoprism/assets/static/build/chunk/ru-json.661ef5b6f9d3f8a7e5b6.js
+/var/db/photoprism/assets/static/build/chunk/sk-json.974be6322b2e9dd38242.js
+/var/db/photoprism/assets/static/build/chunk/sl-json.0802e6b63cea39fb8aa4.js
+/var/db/photoprism/assets/static/build/chunk/sv-json.0c569b1929ddc2587d99.js
+/var/db/photoprism/assets/static/build/chunk/th-json.85a66943220e13935232.js
+/var/db/photoprism/assets/static/build/chunk/tr-json.fe0d4ecc723aacf32dce.js
+/var/db/photoprism/assets/static/build/chunk/uk-json.e5d30b3ca4896a0ec2b6.js
+/var/db/photoprism/assets/static/build/chunk/vi-json.953ed96af956003789ff.js
+/var/db/photoprism/assets/static/build/chunk/zh-json.4aae68077087496904d8.js
+/var/db/photoprism/assets/static/build/chunk/zh_TW-json.692d18661ebfdd65ad77.js
 /var/db/photoprism/assets/static/build/e55a20c80650829ec5fd.woff
 /var/db/photoprism/assets/static/build/ec024da790d2972da002.woff2
-/var/db/photoprism/assets/static/build/share.a59e3f0e821ad7278e4b.js
-/var/db/photoprism/assets/static/build/share.a59e3f0e821ad7278e4b.js.LICENSE.txt
+/var/db/photoprism/assets/static/build/share.cd7d5195788f57a88080.js
+/var/db/photoprism/assets/static/build/share.cd7d5195788f57a88080.js.LICENSE.txt
+/var/db/photoprism/assets/static/build/splash.1aed92941578e5a0aa9e.css
 /var/db/photoprism/assets/static/build/splash.31d6cfe0d16ae931b73c.js
-/var/db/photoprism/assets/static/build/splash.36c27d4b4265ac814869.css
+/var/db/photoprism/assets/static/build/sw-scope-cleanup.js
 /var/db/photoprism/assets/static/build/sw.js
-/var/db/photoprism/assets/static/build/workbox-bdbbf67e.js
+/var/db/photoprism/assets/static/build/workbox-6ce2aed3.js
 /var/db/photoprism/assets/static/font/Open Sans Bold/0-255.pbf
 /var/db/photoprism/assets/static/font/Open Sans Bold/1024-1279.pbf
 /var/db/photoprism/assets/static/font/Open Sans Bold/10240-10495.pbf
@@ -2095,6 +2099,7 @@ bin/photoprism
 @dir /var/db/photoprism/assets/locales/ko
 @dir /var/db/photoprism/assets/locales/ku
 @dir /var/db/photoprism/assets/locales/lt
+@dir /var/db/photoprism/assets/locales/lv
 @dir /var/db/photoprism/assets/locales/ms
 @dir /var/db/photoprism/assets/locales/nb
 @dir /var/db/photoprism/assets/locales/nl
